@@ -7,7 +7,7 @@ namespace EdzesKovetoWpf
 {
     public partial class StatisztikaAblak : Window
     {
-        private readonly HttpClient _httpClient = new HttpClient { BaseAddress = new Uri("http://localhost:51991/") };
+        private readonly HttpClient _httpClient = new HttpClient { BaseAddress = new Uri("https://localhost:51991/") };
 
         public StatisztikaAblak(int felhasznaloId)
         {
